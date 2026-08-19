@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
 
     [Header("Combat")]
     [Tooltip("Enemy stops moving and starts attacking once the Player is within this range.")]
-    [SerializeField] private float attackRange = 5f;
+    [SerializeField] private float attackRange = 1f;
     [SerializeField] private float attackCooldown = 1.5f;
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject bulletPrefab;
